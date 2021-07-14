@@ -1,0 +1,170 @@
+  /*----- Body---- */
+ body{
+    font-family: 'Poppins', sans-serif;
+background: #FFFFFF;
+}
+
+/*---- Conmebol Copa America 2021 ---  */
+@keyframes example {
+    from {background-color:orangered;}
+    to {background-color: yellow;}
+  }
+ .live {
+     color: #FFFFFF;
+    font-size: 30px;
+     background: #2D25A0;
+     display: flex;
+  }
+.heading{
+padding-left: 156px;
+padding-right: 156px;
+padding-top: 200px;
+padding-bottom: 240px;
+}
+/* -----animation----- */
+.watch{
+    display: block;
+    width:80%;
+
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:#000;
+    background-color: orangered;
+     border-radius: 5px;
+    animation-name: example;
+    animation: example 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+}
+.watch:hover{
+    font-size: 24px;
+
+}
+.fa-arrow-right{
+    padding-left: 15px;
+}
+.kick-img{
+  padding-top: 156px;
+  padding-right: 156px;
+  padding-bottom: 86px;
+  
+}
+
+/* players-blogs */
+/* ---------grid-templates-------- */
+
+.players-card{
+    margin: 85px;
+    margin-bottom: 63px;
+    background: #FFFFFF;
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.player {
+    margin: 10px;
+      width: 275px;
+height: 576px;
+padding:  35px;
+border-radius: 5px;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+.players-img{
+    width: 280px;
+    height: 300px; 
+}
+/* ---highlights-- */
+
+
+.size{
+   font-size: 48px;
+    
+}
+/* ---highlights of copa america--- */
+.extra{
+    width: 2000px; ;
+    color:black;
+    font-size: 25px;
+     background:honeydew;
+     transition: width 2s, height 4s;
+     display:flex;  
+}
+.extra:hover {
+   height: 1000px;
+   width: 1500px;
+
+}
+.highlight{
+    padding-left: 156px;
+padding-right: 156px;
+padding-top: 100px;
+padding-bottom: 240px;
+}
+/* -----bottom part organize---- */
+
+.footer{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center
+}
+
+@keyframes mymove {
+    from {left: -500px;}
+    to {left: 500px;
+    } }
+.logo {
+    margin-top: 50px;
+    position: relative;
+    animation-name: mymove;
+     animation: mymove 30s ease-in-out 1s infinite;
+} 
+.icon{
+    display: flex;
+margin-right: 10px;
+   
+}
+/* media queries */
+/* mobile device */
+
+    
+@media screen and (max-width:688px)
+ {
+     nav{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+     }
+     .watch{
+         display:block;
+         width: fit-content;
+     }
+    .live{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+
+    .players-card{
+        font-display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .extra{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+    }
+h2{
+    display: flex;
+align-items: center;
+text-align: right;
+  font-size: 18px;
+ font-weight: normal;
+}
+ }
+  
