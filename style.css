@@ -133,36 +133,32 @@ margin-right: 10px;
 /*------- mobile device------ */
 
     
-@media screen and (max-width:688px)
+@media screen  and (max-width:688px)
  {
-     nav{
-         display: grid;
-         grid-template-columns: repeat(2,1fr);
-     }
      .watch{
          display:block;
          width: fit-content;
      }
     .live{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-
+       font-size: 14px;
     }
+h1{
+    text-align: start;
 
+}
     .players-card{
         font-display: grid;
         grid-template-columns: repeat(1,1fr);
     }
     .extra{
+        width: fit-content;
         height: fit-content;
         display: grid;
         grid-template-columns: repeat(1,1fr) ;
     }
 h2{
     display: flex;
-align-items: center;
-text-align: right;
+text-align:center;
   font-size: 18px;
  font-weight: normal;
 }
