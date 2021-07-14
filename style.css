@@ -139,10 +139,9 @@ margin-right: 10px;
          display:block;
          width: fit-content;
      }
-    .live{
-       font-size: 14px;
-    }
-h1{
+
+h1, .heading {
+     font-size: 25px;
     text-align: start;
 
 }
