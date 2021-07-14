@@ -139,6 +139,11 @@ margin-right: 10px;
          display:block;
          width: fit-content;
      }
+     .live{
+ width: fit-content;
+        height: fit-content;
+        display: grid;
+     }
 
 h1, .heading {
      font-size: 25px;
